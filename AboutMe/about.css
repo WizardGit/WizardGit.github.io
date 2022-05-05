@@ -1,0 +1,100 @@
+/*
+Author: Kaiser Slocum
+Date (Last Edited): 12/30/2021
+*/
+
+/* Body */
+body {
+	width: 100%;
+	min-width: 1000px;
+    max-width: 1900px;	
+	background-color: black;
+	background-image: url(003.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Times New Roman';
+	font-weight: bold;	
+}
+h1{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+}
+img {
+	float: left;
+	width: 50%;
+}
+
+/* Header */
+header {
+    display: block;
+    width: 99%;
+	background-color: rgba(109, 9, 109, .5);
+	box-shadow: black 5px 5px 10px;	
+	margin-right: 1%;	
+}
+
+/* Section */
+section {
+	display: block;	
+	float: right;
+	overflow: auto;
+	height: 800px;
+    width: 60%;
+	background-color: rgba(255, 140, 0, 0.7);
+	margin: 20px;	
+	outline: 5px solid;	
+}
+section article{
+	clear: left;
+	padding: 10px;
+}
+
+/* Aside */
+aside {	
+	display: block;	
+	clear: left;
+	float: left;
+    width: 30%;
+	background-color: rgba(255, 140, 0, 0.7);	
+	margin: 20px;
+	margin-left: 10px;
+	outline: 5px dotted;	
+}
+aside article p{	
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+/* Nav */
+nav {
+	display: block;	
+	width: 103%;	
+	margin-left: -40px;	
+}
+nav li{
+	list-style-type: none;
+	background-color: rgba(255, 140, 0, 0.5);
+	border-radius: 10px;
+	float: left;
+	width: 40%;
+	margin: .4%;
+	box-shadow: black 5px 5px 10px;
+}
+nav ul li:last-of-type {
+	float: right;
+	margin-right: 2%;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;		
+}
+nav ul a:hover, article dl a:hover{
+    color: brown;
+}
+nav ul a:active, article dl a:active{
+    color: lime;
+}
