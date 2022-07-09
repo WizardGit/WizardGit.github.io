@@ -103,14 +103,8 @@ section article img{
 	text-align: center;
 }
 
-#StarWars figure, #Medieval figure {
+#StarWars figure, #Medieval figure, #HTTYD figure, #Miscellaneous figure {
 	width: 48%;
-}
-#HTTYD figure {
-	width: 31%;
-}
-#Miscellaneous figure {
-	width: 98%;
 }
 
 /* Aside */
@@ -138,7 +132,7 @@ aside h2 {
 	background-color: blue;
 	padding: 5px;
 }
-aside article object {
+aside article iframe {
 	display: block;
 	margin-left: 1%;
 	margin-right: 1%;

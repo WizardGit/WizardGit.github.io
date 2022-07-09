@@ -8,57 +8,51 @@
 
 function httass()
 {    
-    var ch = document.getElementById("testy");
-    ch.data = '../Books/HowToTrainASpeedStinger.htm';
-    ch = document.getElementById("title");
-    ch.innerHTML = "Chapter 1 <br> from <ins>How To Train A Speed Stinger</ins>!";
+    document.getElementById("BookDisplay").src = "../Books/HowToTrainASpeedStinger.pdf#toolbar=0";  
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>How To Train A Speed Stinger</ins>!";
 }
 function httad()
 {    
-    var ch = document.getElementById("testy");
-    ch.data = '../Books/HowToTrainADreadstrider.htm';
-    ch = document.getElementById("title");
-    ch.innerHTML = "Chapter 1 <br> from <ins>How To Train A Dreadstrider</ins>!";
+    document.getElementById("BookDisplay").src = "../Books/HowToTrainADreadstrider.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>How To Train A Dreadstrider</ins>!";
 }
 function httads()
 {    
-    var ch = document.getElementById("testy");
-    ch.data = '../Books/HowToTrainADeadlyScuttleclaw.htm';
-    ch = document.getElementById("title");
-    ch.innerHTML = "Chapter 1 <br> from <ins>How To Train A Deadly Scuttleclaw</ins>!";
+    document.getElementById("BookDisplay").src = "../Books/HowToTrainADeadlyScuttleclaw.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>How To Train A Deadly Scuttleclaw</ins>!";
+}
+function httabd()
+{    
+    document.getElementById("BookDisplay").src = "../Books/HowToTrainABewilderdeath.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>How To Train A Bewilderdeath</ins>!";
 }
 function forceless()
 {    
-    var ch = document.getElementById("testy");
-    ch.data = '../Books/Forceless.htm';
-    ch = document.getElementById("title");
-    ch.innerHTML = "Chapter 1 <br> from <ins>Forceless</ins>!";
+    document.getElementById("BookDisplay").src = "../Books/Forceless.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>Forceless</ins>!";
 }
 function forceful()
 {    
-    var ch = document.getElementById("testy");
-    ch.data = '../Books/Forceful.htm';
-    ch = document.getElementById("title");
-    ch.innerHTML = "Chapter 1 <br> from <ins>Forceful</ins>!";
+    document.getElementById("BookDisplay").src = "../Books/Forceful.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>Forceful</ins>!";
 }
 function sst()
 {    
-    var ch = document.getElementById("testy");
-    ch.data = '../Books/TheSwordTheScepterAndTheTraitor.htm';
-    ch = document.getElementById("title");
-    ch.innerHTML = "Chapter 1 <br> from <ins>The Sword, The Scepter, and The Traitor</ins>!";
+    document.getElementById("BookDisplay").src = "../Books/TheSwordTheScepterAndTheTraitor.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>The Sword, The Scepter, and The Traitor</ins>!";
 }
 function thereturn()
 {    
-    var ch = document.getElementById("testy");
-    ch.data = '../Books/TheReturn.htm';
-    ch = document.getElementById("title");
-    ch.innerHTML = "Chapter 1 <br> from <ins>The Return: Elven Decimation</ins>!";
+    document.getElementById("BookDisplay").src = "../Books/TheReturn.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>The Return: Elven Decimation</ins>!";
 }
 function nofailure()
 {    
-    var ch = document.getElementById("testy");
-    ch.data = '../Books/FailureIsNotAnOption.htm';
-    ch = document.getElementById("title");
-    ch.innerHTML = "Chapter 1 <br> from <ins>Failure Is Not An Option</ins>!";
+    document.getElementById("BookDisplay").src = "../Books/FailureIsNotAnOption.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>Failure Is Not An Option</ins>!";
+}
+function wumpworld()
+{    
+    document.getElementById("BookDisplay").src = "../Books/wumpworld.pdf#toolbar=0";
+    document.getElementById("title").innerHTML = "Chapter 1 <br> from <ins>Wump World: Redone</ins>!";
 }

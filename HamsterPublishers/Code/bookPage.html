@@ -30,7 +30,17 @@
         <p id="instructions"> Click an image below to view that book's first chapter!</p>  
         <article id="books">
             <div id="HTTYD">
-                <h3>How To Train Your Dragon: Fan-fiction</h3>
+                <h3>How To Train Your Dragon: Fan-fiction</h3>                
+                <figure onclick="httads()">
+                    <img src="../Images/FrontCoverArt.jpg" />
+                    <figcaption>How To Train a Deadly Scuttleclaw</figcaption>            
+                </figure>
+                <figure onclick="httabd()">
+                    <img src="../Images/Bewilderdeath.png" />
+                    <figcaption>How To Train a Bewilderdeath</figcaption>            
+                </figure>
+            </div>
+            <div id="HTTYD">
                 <figure onclick="httass()">
                     <img src="../Images/SpeedStinger.jpg" />
                     <figcaption > How to Train a Speed Stinger</figcaption>            
@@ -38,11 +48,7 @@
                 <figure onclick="httad()">
                     <img src="../Images/PowderSunset.png" />
                     <figcaption>How To Train a Dreadstrider</figcaption>            
-                </figure>                
-                <figure onclick="httads()">
-                    <img src="../Images/FrontCoverArt.jpg" />
-                    <figcaption>How To Train a Deadly Scuttleclaw</figcaption>            
-                </figure>
+                </figure>  
             </div>
             <div id="StarWars">
                 <h3>Star Wars: Fan-fiction</h3>
@@ -51,10 +57,10 @@
                     <figcaption>Forceless</figcaption>            
                 </figure>
                 <figure onclick="forceful()">
-                    <img src="../Images/GrayJedi.jpg" />
+                    <img src="../Images/LhokaConceptArt.jpg"/>
                     <figcaption>Forceful</figcaption>            
                 </figure>
-            </div>
+            </div>            
             <div id="Medieval">
                 <h3>The Deliverers: Original, Medieval Series</h3>
                 <figure onclick="sst()">
@@ -73,14 +79,20 @@
                     <img src="../Images/FerretInServerRoom.png" />
                     <figcaption>Failure Is Not An Option</figcaption>            
                 </figure> 
+                <figure onclick="wumpworld()">
+                    <img src="../Images/wumpworld.jfif" />
+                    <figcaption>Wump World: Redone</figcaption>            
+                </figure> 
             </div>
         </article>  
     </section>
     <aside>        
         <article>            
             <h2 id="title">Chapter 1 <br> from <ins>Failure Is Not An Option</ins>!</h2>
-            <object data='../Books/FailureIsNotAnOption.htm' id='testy' type='text/html' width='900px' height='800px'>
-            </object>  
+            <!--<object data='../Books/FailureIsNotAnOption.htm' id='testy' type='text/html' width='900px' height='800px'>
+            </object>  -->
+            <iframe src="../Books/FailureIsNotAnOption.pdf#toolbar=0" id='BookDisplay' width='900px' height='800px'>
+            </iframe>
         </article> 
     </aside>  
 </body>
