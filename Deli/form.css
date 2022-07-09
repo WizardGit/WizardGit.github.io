@@ -1,0 +1,14 @@
+/*
+Author: Kaiser Slocum
+Date: 3/13/2018
+*/
+section article table.table {
+    border: 10px double black; 
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px;        
+}
+table.table th, table.table td {
+    padding: 5px;
+    text-align: center;
+}

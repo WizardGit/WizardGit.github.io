@@ -1,0 +1,29 @@
+/*
+Author: Kaiser Slocum
+Date: 8/25/2018
+*/
+
+@page{
+    size: 8.5in 11in portrait;
+    margin: 0.5in;
+}
+
+/* Hidden Page Elements */
+nav, section, form{
+    display: none;
+}
+
+/* Header */
+header h1{
+    text-align: center;   
+}
+
+/* Body */
+body img{
+    width: 7in;
+}
+
+/* Aside */
+aside {
+    display: block;
+}

@@ -1,0 +1,68 @@
+/*
+Author: Kaiser Slocum
+Date: 3/13/2018
+*/
+
+/* Section */
+section {      
+    clear: left; 
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;    
+    background-color: rgba(210, 180, 140, .7);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+section h2 {   
+    background-color: rgba(100, 149, 237, .5);  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 0px;
+}
+section dl {
+    margin: 5px;
+}
+
+/* Aside*/
+aside h2 {
+    background-color: rgba(100, 149, 237, .5);  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 0px;
+}
+aside {
+    clear: right;
+    float: right;  
+    border-radius: 20px;  
+    margin-top: 20px; 
+    margin-right: 20px;
+    background-color: rgba(210, 180, 140, .7);
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li {
+    clear: left;
+    float: left; 
+    border-radius: 50px;
+    text-align: center;  
+    padding: 5px;
+    margin: 10px;   
+    background-color: rgba(52, 166, 47, .8);
+}
+aside ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+aside ul a:hover {
+    color: brown;
+}
+aside ul a:active{
+    color: lime;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+}

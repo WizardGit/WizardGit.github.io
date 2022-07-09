@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Kaiser's deli
+    Author: Kaiser Slocum
+    Date: 1/10/2018
+    Ordering
+-->
+<meta charset="UTF-8" />
+<link href="all.css" rel="stylesheet" type="text/css">
+<link href="ordering.css" rel="stylesheet" type="text/css" />
+<script src="formsubmit.js"></script>
+<script src="modernizr-1.5.js"></script>
+<title>Kaiser's Deli Delivery and Catering</title>
+</head>
+
+<body>
+    <header>
+        <h1>Kaiser's Deli</h1>   
+        <h1>Delivery and Catering</h1>
+    </header> 
+    <nav>
+        <ul>
+            <li><a href="ordering.htm">Ordering</a></li>
+            <li><a href="menu.htm">Menu</a></li>
+            <li><a href="index.htm">Kaiser's Deli</a></li>
+        </ul>
+    </nav>
+    <aside>        
+        <h2>Catering!</h2>
+        <ol>
+            <li><strong>Gangs of Four: </strong> $30.00</li>
+            <li><strong>Gangs of Six: </strong> $60.00</li>
+            <li><strong>Gangs of Ten: </strong> $200.00</li>
+        </ol>
+        <figure>
+            <img src="roboEmblem.jpg" width="300px" alt="Kaiser's Deli Logo" />  
+            <figcaption><b>Our Logo!<br>You may see it on our delivery trucks around town.</b></figcaption>
+        </figure>             
+    </aside> 
+    <section>
+        <h2>Free Delivery!</h2>
+        <article>
+           <p> We love to cater, and we know it's a huge blessing to our
+            customers.  Depending on the group and its type, we bring different amounts
+            of food.  Simply call us and we can customize our deliveries for your needs.</P>
+      
+           <p> Delivery is easier for us and is much speedier.  We have employees on call
+            on every day at every hour, ready to deliver deliciousness.  If you have an
+            urgent need for a dish, call 922 and we'll track your location and bring it
+            to you on the double.</p>
+        </article>
+        <article>
+            <p>We serve to our customers who order "meals" to our clients. We only serve to clients, not customers!</p>
+        </article>
+        <article>
+            <form name="orderForm" 
+                action="http://www.KaiserDeli.com/cgi-bin/orderForm"
+                method="post">
+                <fieldset class="customerInfo">
+                    <label for="firstName">First Name:</label>
+                    <input name="firstName" required="required" placeholder="George" />
+                    
+                    <label for="lastName">Last Name:</label>
+                    <input name="lastName" required="required" placeholder="Smith" />
+                    
+                    <label for="address">Address:</label> 
+                    <input name="address" required="required" placeholder="8254 Franklin Boulevard" />
+                                       
+                    <label for="timeOfDelivery">Time of Delivery:</label>
+                    <input name="timeOfDelivery" required="required" type="date" placeholder="11:54 a.m." />                                    
+                </fieldset>
+
+                <fieldset class="clientInfo">
+                    <label for="firstName">First Name:</label>
+                    <input placeholder="Frank" name="firstName" required="required" />
+                    
+                    <label for="lastName">Last Name:</label>
+                    <input placeholder="Johnson" name="lastName" required="required" />
+                    
+                    <label for="address">Address:</label>
+                    <input placeholder="3261 Clif Avenue" name="address" required="required" />
+                    
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input placeholder="(444) 444-4444" name="phoneNumber" required="required" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+                    
+                    <label for="email">Email:</label>  
+                    <input placeholder="iDontKnow@yahoo.com" name="email" type="email" required="required" />
+                    
+                    <label for="creditCard">Credit Card (Please select the card being used as well):</label>
+                    <input placeholder="30312345678901" name="creditCard" required="required" autocomplete="false" type="password" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$" />
+                
+                    <label>
+                        <input type="radio" name="ccard" value="diners" />
+                        <img src="diners.png" alt="Diners picture" />
+                    </label>
+                    <label>
+                        <input type="radio" name="ccard" value="discover" />
+                        <img src="discover.png" alt="Discover picture" />
+                    </label>
+                    <label>
+                        <input type="radio" name="ccard" value="master" />
+                        <img src="master.png" alt="Master picture" />
+                    </label>
+                    <label>
+                        <input type="radio" name="ccard" value="visa" />
+                        <img src="visa.png" alt="Visa picture" />
+                    </label>                
+                </fieldset>                     
+
+                <fieldset class="foodInfo">
+                    <label for="whichFoodTypes">Food Choices:</label>
+                    <select name="whichFoodTypes" multiple="multiple">
+                        <optgroup name="sides" label="Sides">
+                            <option value="choppedVeggies">Chopped Veggies</option>
+                            <option value="frenchFri">French Fri</option>
+                            <option value="tripsDip">Trips and Dip</option>
+                        </optgroup>
+                        <optgroup name="maindishes" label="Maindishes">
+                            <option value="knuckleSandwich">Knuckle Sandwich</option>
+                            <option value="mashedPotatoes">Mashed Potatoes</option>
+                            <option value="creamedBiscuits">Creamed Biscuits</option>
+                            <option value="dicedSushi">Diced Sushi</option>
+                            <option value="pancake">Pancake</option>
+                            <option value="spaghettiSpitballs">Spaghetti and Spitballs</option>
+                            <option value="slamBurger">Slam Burger</option>
+                        </optgroup>
+                        <optgroup name="drinks" label="Drinks">
+                            <option value="whopperShake">Whopper Shake</option>
+                            <option value="orangeCrush">Orange Crush Soda</option>
+                            <option value="whine">Whine</option>
+                            <option value="punch">Punch</option>
+                            <option value="7upSmash">7-up smash</option>
+                        </optgroup>
+                        <optgroup name="desserts" label="Desserts">                                
+                            <option value="creeps">Creeps</option>
+                            <option value="chocolateFussels">Chocolate Fussels</option>
+                            <option value="jawbreakers">Jawbreakers</option>
+                            <option value="gumfalls">Gumfalls</option>
+                            <option value="chocolateSlipCookies">Chocolate Slip Cookies</option>                          
+                        </optgroup>
+                    </select>   
+                    </br>
+                    </br>
+                    </br>
+                    </br>                 
+                    <label for="specialOrder">Type in any Special Order</label> 
+                    <input placeholder="Cream Dream" name="specialOrder" />                                
+
+                    <label for="extraCream">Extra Cream:</label>                        
+                    <input type="checkbox" name="extraCream" />
+                    
+                    <label for="hotWater">Hot Water:</label>                       
+                    <input type="checkbox" name="hotWater" /> 
+                    
+                    <label for="specialNotes">Special Notes:</label> 
+                    <textarea placeholder="Use Gluten Free bread" name="specialNotes" rows="3" cols="10"></textarea> 
+                </fieldset>
+                <input type="submit" value="Submit Order" />
+                <input type="reset" value="Reset Form" />
+            </form>            
+        </article>
+
+    </section>
+    <br><br><br><br>
+    <footer>
+        <address>Kaiser's Deli &bull;
+                 541 West Highland Drive &bull;
+                 Eugene, OR 97405 &bull;
+                 (000) 000-0000
+        </address>
+        <br>
+        Author: Kaiser Slocum <br>
+        Date: 3/13/2018 <br>
+        Email-address: <a href="mailto:@my.lanecc.edu">student@my.lanecc.edu</a><br>
+        <a href="http://lanecc.edu">Lane Website</a>  
+    </footer>
+
+</body>
+
+</html>

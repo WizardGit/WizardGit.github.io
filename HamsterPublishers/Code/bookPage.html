@@ -1,0 +1,87 @@
+<!-- Hamster Publisher Website
+    Author: Kaiser Slocum
+    Date (Last Edited): 12/30/2021
+-->
+<!--Don't forget to add tooltips!  <a href="" title="text">content</a>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<script src="bookPage.js"></script>  
+<link href="bookPage.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="print.css" rel="stylesheet" type="text/css" media="print"/>
+
+<meta name="author" content="Kaiser Slocum"/>
+<meta name="classification" content="Hamster Publisher Website"/>
+<meta name="description" content="View Hamster Publisher books."/>
+<meta name="generator" content="Visual Studio Code"/>
+<meta name="keywords" content="Kaiser, Kailey, Kirsten, Slocum, Kai, Zelena, Anaya, Xen, Ferret, Tokero, spy, agent, book"/>
+<meta name="owner" content="Kaiser Slocum"/>
+<title>Hamster Publishers</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hamster Publishers</h1>         
+    </header>
+    <section>   
+        <h2> <img src="../Images/HamsterPublishers.png"></h2>
+        <p id="instructions"> Click an image below to view that book's first chapter!</p>  
+        <article id="books">
+            <div id="HTTYD">
+                <h3>How To Train Your Dragon: Fan-fiction</h3>
+                <figure onclick="httass()">
+                    <img src="../Images/SpeedStinger.jpg" />
+                    <figcaption > How to Train a Speed Stinger</figcaption>            
+                </figure>
+                <figure onclick="httad()">
+                    <img src="../Images/PowderSunset.png" />
+                    <figcaption>How To Train a Dreadstrider</figcaption>            
+                </figure>                
+                <figure onclick="httads()">
+                    <img src="../Images/FrontCoverArt.jpg" />
+                    <figcaption>How To Train a Deadly Scuttleclaw</figcaption>            
+                </figure>
+            </div>
+            <div id="StarWars">
+                <h3>Star Wars: Fan-fiction</h3>
+                <figure onclick="forceless()">
+                    <img src="../Images/GrayJedi.jpg" />
+                    <figcaption>Forceless</figcaption>            
+                </figure>
+                <figure onclick="forceful()">
+                    <img src="../Images/GrayJedi.jpg" />
+                    <figcaption>Forceful</figcaption>            
+                </figure>
+            </div>
+            <div id="Medieval">
+                <h3>The Deliverers: Original, Medieval Series</h3>
+                <figure onclick="sst()">
+                    <img src="../Images/SwordInGrass.jpg" />
+                    <figcaption>The Sword, The Scepter, and The Traitor</figcaption>            
+                </figure>
+                <figure onclick="thereturn()">
+                    <img src="../Images/templefortress.jpg" />
+                    <figcaption>The Return: Elven Decimation</figcaption>            
+                </figure>
+                <p>This series can also be purchased on Amazon by going <a href="Amazon.com/">HERE</a></p>
+            </div>
+            <div id="Miscellaneous">
+                <h3>Miscellaneous: Original, Stand-alone</h3>
+                <figure onclick="nofailure()">
+                    <img src="../Images/FerretInServerRoom.png" />
+                    <figcaption>Failure Is Not An Option</figcaption>            
+                </figure> 
+            </div>
+        </article>  
+    </section>
+    <aside>        
+        <article>            
+            <h2 id="title">Chapter 1 <br> from <ins>Failure Is Not An Option</ins>!</h2>
+            <object data='../Books/FailureIsNotAnOption.htm' id='testy' type='text/html' width='900px' height='800px'>
+            </object>  
+        </article> 
+    </aside>  
+</body>
+</html>

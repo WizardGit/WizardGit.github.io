@@ -1,0 +1,65 @@
+/*
+Author: Kaiser Slocum
+Date: 3/13/2018
+*/
+
+
+/* Section */
+section {
+	clear: left;
+	float: left;
+	background-color: rgba(210, 180, 140, 0);
+	border-radius: 20px;
+	padding: 10px;
+	padding-top: 0px;
+}
+section article {
+	background-color: rgba(210, 180, 140, 0.7);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	text-indent: 1em;		
+}
+section article h2 {
+	background-color: rgba(100, 149, 237, 0.5);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: center;	
+}
+section p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Aside */
+aside {	
+	clear: right;
+	float: right;	
+	margin-bottom: 20px;		
+	background-color: rgba(210, 180, 140, 0);
+}
+aside blockquote{
+	margin: 20px;	
+	text-indent: 1em;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: rgba(210, 180, 140, .7);
+}
+aside blockquote p {
+	padding: 10px;
+}
+aside article {
+	border-radius: 20px;
+	text-align: center;
+	margin: 20px;
+	background-color: rgba(210, 180, 140, .7);
+}
+aside blockquote h2 {
+	text-align: center;
+	text-indent: -5px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;		
+	background-color: rgba(100, 149, 237, 0.5);
+}
