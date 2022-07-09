@@ -1,6 +1,6 @@
 /*
 Author: Kaiser Slocum
-Date (Last Edited): 6/11/2020
+Date (Last Edited): 12/30/2021
 */
 
 /* Body */
@@ -23,6 +23,10 @@ h2{
     font-family: 'Comic Sans MS', cursive;
     text-align: center;
 }
+img {
+	float: left;
+	width: 50%;
+}
 
 /* Header */
 header {
@@ -37,15 +41,17 @@ header {
 section {
 	display: block;	
 	float: right;
+	overflow: auto;
+	height: 800px;
     width: 60%;
 	background-color: rgba(255, 140, 0, 0.7);
 	margin: 20px;	
 	outline: 5px solid;	
 }
 section article{
+	clear: left;
 	padding: 10px;
 }
-
 
 /* Aside */
 aside {	
@@ -87,19 +93,4 @@ nav ul a:hover, article dl a:hover{
 }
 nav ul a:active, article dl a:active{
     color: lime;
-}
-
-/* Footer */
-footer {
-    display: block;
-	clear: left;
-	float: left;	
-	margin: 10px;
-	padding: 10px;
-	width: 20%;
-	background-color: rgba(255, 140, 0, 0.7);		
-	outline: 5px solid rgba(128,0,128,.7);	
-}
-footer a{
-	text-decoration: none;
 }
