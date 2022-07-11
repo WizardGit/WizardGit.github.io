@@ -23,7 +23,7 @@ function httads()
 }
 function httabd()
 {    
-    document.getElementById("BookDisplay").src = "../Books/HowToTrainABewilderdeath.pdf#toolbar=0";
+    document.getElementById("BookDisplay").src = "../Books/HowToTrainABewilderDeath.pdf#toolbar=0";
     document.getElementById("title").innerHTML = "<ins>How To Train A Bewilderdeath</ins>";
 }
 function forceless()
