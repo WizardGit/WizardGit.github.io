@@ -53,6 +53,6 @@ function nofailure()
 }
 function wumpworld()
 {    
-    document.getElementById("BookDisplay").src = "../Books/wumpworld.pdf#toolbar=0";
+    document.getElementById("BookDisplay").src = "../Books/WumpWorld.pdf#toolbar=0";
     document.getElementById("title").innerHTML = "<ins>Wump World: Redone</ins>";
 }
