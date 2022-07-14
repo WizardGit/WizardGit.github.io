@@ -1,0 +1,17 @@
+body {
+	width: 98%;
+	min-width: 800px;
+    max-width: 1900px;	
+	background-color: black;
+	background-image: url(Background.gif);
+	background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Times New Roman';	
+}
+
+header {
+    color: red;
+}
+iframe {
+    background-color: white;
+}
