@@ -1,3 +1,6 @@
+I will try to update this when I can.
+The manual and mac version has not been made yet!
+
 StingerRunRacing
 Racing Simulation with Speed Stingers!
 This is a standard 3D Unity project on version 2021.2.14f1
