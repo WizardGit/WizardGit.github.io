@@ -1,0 +1,14 @@
+StingerRunRacing
+Racing Simulation with Speed Stingers!
+This is a standard 3D Unity project on version 2021.2.14f1
+
+Kaizar The Sneak Unity Play: https://play.unity.com/u/KaizarTheSneak
+Stinger Run Racing Game Link: https://play.unity.com/mg/other/webglbuilds-245
+
+Current Version:
+(On Windows, website version has not been updated)
+Updated final boss race so now you can win
+Updated free roam so once you complete the quest, you cannot redo it
+Updated free roam so once you collect a gem, you cannot re-collect it
+Updated store, so gems are gems (there are no trophies anymore!)
+
