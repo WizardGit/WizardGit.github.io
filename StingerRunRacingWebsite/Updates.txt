@@ -14,4 +14,6 @@ Updated store, so gems are gems (there are no trophies anymore!)
 Added a second quest to find and destroy a sword
 Added a quest marker over Herald
 Minor Quest code updates
+Added new cursor
+
 
