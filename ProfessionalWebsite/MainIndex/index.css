@@ -1,6 +1,6 @@
 /*
 Author: Kaiser Slocum
-Date (Last Edited): 7/9/2022
+Date (Last Edited): 2/26/2023
 */
 
 /* Body */
@@ -185,46 +185,4 @@ aside p img:last-of-type{
 }
 #description{
 	clear: left;
-}
-
-/* Nav */
-nav {
-	display: block;
-	margin-left: -30px;	
-	width: 100%;	
-}
-nav ul li:last-of-type {
-	float: right;
-	width: auto;
-	margin-right: 20%;
-	margin-top: -20px;
-}
-nav ul li{  
-	list-style-type: none; 
-	float: left;  	
-	height: 20px;
-	width: 45%;	
-	margin-left: 20%;	
-}
-nav ul li a{    
-    background-color: rgba(57, 175, 230, 0.7);
-	color: black;
-	text-decoration: none;
-    border-radius: 50px;
-	text-align: center;   	
-	margin: 0em 0em 0em 0em;
-    padding: .5em 2em .5em 2em;
-}
-nav ul a:hover, article dl a:hover{
-    color: brown;
-}
-nav ul a:active, article dl a:active{
-    color: lime;
-}
-nav ul li a, article dl a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
 }

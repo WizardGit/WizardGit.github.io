@@ -1,19 +1,7 @@
-I will try to update this when I can.
-The manual and mac version have not been implemented yet!
-
 StingerRunRacing
 Racing Simulation with Speed Stingers!
 This is a standard 3D Unity project on version 2021.2.14f1
+Current Version (1.5):
 
-Current Version (1.1):
-(On Windows, website version has not been updated)
-Updated final boss race so now you can win
-Updated free roam so once you complete the quest, you cannot redo it
-Updated free roam so once you collect a gem, you cannot re-collect it
-Updated store, so gems are gems (there are no trophies anymore!)
-Added a second quest to find and destroy a sword
-Added a quest marker over Herald
-Minor Quest code updates
-Added new cursor
 
 
